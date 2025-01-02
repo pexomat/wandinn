@@ -1,17 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import Head from 'next/head';
+import Image from 'next/image';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -22,9 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div
-        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
-      >
+      <div className={`${styles.page} `}>
         <main className={styles.main}>
           <Image
             className={styles.logo}
@@ -36,7 +24,7 @@ export default function Home() {
           />
           <ol>
             <li>
-              Get started by editing <code>src/pages/index.tsx</code>.
+              Get started by editing <code>src/pages/index.tsx</code>.{' '}
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
