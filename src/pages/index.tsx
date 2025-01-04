@@ -1,13 +1,9 @@
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { HomePageContent } from '../components/HomePageContent';
+import { Layout } from '../components/layout/Layout';
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-      <HomePageContent />
-      <Footer />
-    </>
-  );
-}
+const Home = () => (
+  <>
+    <Layout />
+  </>
+);
+
+export default Home;

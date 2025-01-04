@@ -1,4 +1,12 @@
+@import 'src/styles/color';
+
 .footer {
   width: 100%;
   flex-shrink: 0;
+  background-image: linear-gradient(to right, $black, blue);
+  color: white;
+}
+
+.centerText {
+  text-align: center;
 }
