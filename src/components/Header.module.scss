@@ -1,0 +1,12 @@
+@import 'src/styles/color';
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  align-items: center;
+  font-size: 30px;
+  background-image: linear-gradient(to right, $black, blue);
+  color: white;
+}
